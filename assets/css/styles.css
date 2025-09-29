@@ -60,6 +60,7 @@ header ul {
 }
 header nav {
     width: 15rem; /* Fixed width for navigation */
+    margin: auto; /* Centering nav */
 }
 header ul li {
     margin: 0.2rem 1rem;
