@@ -1,12 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Matthieu Diener</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="android-chrome" href="assets/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <script src="https://kit.fontawesome.com/4f6fea7b01.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <header>
+        <h1>Matthieu Diener</h1>
+        <h2>Développeur Web Junior</h2>
+        <ul class="cv-contact-info">
+            <li><i class="fa-solid fa-envelope"></i><a href="mailto:matthieu.diener@example.com">Mail</a></li>
+            <li><i class="fa-solid fa-house"></i><a href="https://www.google.com/maps">Adresse</a></li>
+            <li><i class="fa-solid fa-phone"></i><a href="tel:+33123456789">Téléphone</a></li>
+            <li><i class="fa-solid fa-car"></i>Permis B</li>
+        </ul>
+        <img src="assets/images/profile.jpg" alt="Photo de Matthieu Diener" class="cv-profile-pic" >
+    </header>
     
+    <main>
+        <div id="cv-page-container">
+            <section id="cv-main-content">
+                <article>
+                    <h3>Profil</h3>
+                    <p>Passionné par le développement web, je suis à la recherche d'une opportunité pour mettre en pratique mes compétences et contribuer à des projets innovants.</p>
+                </article>
+                <article>
+                    <h3>Formations</h3>
+                    <ul class="education">
+                        <li>Titre Professionnel DWWM<span><time datetime="2025">2025</time>/<time datetime="2026">2026</time></span></li>
+                        <span>Centre Européen de Formation</span>
+                        <li>Ingénieur en Mécanique Avancée<span><time datetime="2017">2017</time>/<time datetime="2021">2021</time></span></li>
+                        <span>SIGMA Clermont - France</span>
+                        <li>Classes Préparatoires aux Grandes Écoles (CPGE) - Filière PCSI/PSI<span><time datetime="2015">2015</time>/<time datetime="2017">2017</time></span></li>                
+                        <span>Lycée Dumont D'Urville - Toulon, France</span>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Stages</h3>
+                    <ul class="internships">
+                        <li>Ingénieur robotique<span><time datetime="2021-03">Avril 2021</time> - <time datetime="2021-09">Septembre 2021</time></span></li>
+                        <span>INOVSYS - Marignane, France</span>
+                        <li>Assistant chercheur robotique<span><time datetime="2020-03">Février 2020</time> - <time datetime="2020-09">Septembre 2020</time></span></li>
+                        <span>Université Technologique de Lulea - Campus spatial de Kiruna, Suède</span>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Expérience Professionnelle</h3>
+                    <ul class="experience">
+                        <li>Responsable d'installation<span><time datetime="2024-01">Janvier 2024</time> - <time datetime="2025-05">Mai 2025</time></span></li>
+                        <span>Bearbox International LTD - UK</span>
+                        <li>Ingénieur Commissioning<span><time datetime="2021-11">Novembre 2021</time> - <time datetime="2023-09">Septembre 2023</time></span></li>
+                        <span>SOLYSTIC - France & UK</span>
+                    </ul>
+                </article>
+            </section>
+            
+            <aside id="cv-sidebar">
+                <article>
+                    <h3>Compétences</h3>
+                    <ul class="skills">
+                        <li>HTML<span>&#9733;&#9733;&#9733;&#9733;&#9734;</span></li>
+                        <li>CSS<span>&#9733;&#9733;&#9733;&#9734;&#9734;</span></li>
+                        <li>JavaScript<span>&#9733;&#9733;&#9734;&#9734;&#9734;</span></li>
+                        <li>PHP<span>&#9733;&#9734;&#9734;&#9734;&#9734;</span></li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Langues</h3>
+                    <ul class="languages">
+                        <li>Français<span>Langue maternelle</span></li>
+                        <li>Anglais<span>Courant</span></li>
+                        <li>Espagnol<span>Notions</span></li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Qualités</h3>
+                    <ul class="qualities">
+                        <li>Adaptabilité</li>
+                        <li>Curiosité</li>
+                        <li>Résolution de problèmes</li>
+                        <li>Créativité</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Centres d'intérêt</h3>
+                    <ul class="interests">
+                        <li>Voyages</li>
+                        <li>Jeux vidéo</li>
+                        <li>Guitare</li>
+                        <li>Théâtre d'improvisation</li>
+                    </ul>
+                </article>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <i class="fa-brands fa-square-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+        </div>
+        <small>Mis à jour le: <time datetime="2025-09-29">29/09/2025</time></small>
+    </footer>
 </body>
 </html>
