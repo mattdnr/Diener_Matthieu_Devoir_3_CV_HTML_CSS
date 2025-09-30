@@ -86,7 +86,7 @@ header .cv-profile-pic:hover {
     padding: 2rem; 
     gap: 2rem; /* Space between main and sidebar */
 }
-/* Main content area */
+/* Page content area */
 main {
     background-color: #f5f5f5;
     padding: 1rem;
@@ -157,7 +157,7 @@ main h3 {
 .interests li::marker {
     color: #17abb3; /* Consistent bullet color */
 }
-/* main content styles */
+/* Main content styles */
 #cv-main-content {
     width: 70%;
     padding: 1rem;
@@ -234,6 +234,12 @@ main h3 {
 .experience-institution {
     flex-basis: 100%; /* Full width for institution names, ensure it is on a new line */
     font-style: italic; /* Italic for institution names */
+}
+
+#cv-main-content li:hover {
+    background-color: #e3e3e3; /* Light highlight on hover */
+    border-left: #17abb3 4px solid; /* Left border for emphasis */
+    padding: 0.2rem; /* Padding for better appearance */
 }
 
 /* Footer styles */
