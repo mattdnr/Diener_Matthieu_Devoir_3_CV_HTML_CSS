@@ -168,3 +168,26 @@ main h3 {
     text-align: justify; /* Justified text for better appearance */
     text-indent: 1.5rem; /* Indent first line */
 }
+.education {
+    list-style: none;
+    padding-left: 0;
+}
+.education li {
+    margin-bottom: 1rem; /* Space between education entries */
+    font-weight: 700; /* Semi-bold for better readability */
+    display: flex;
+    flex-wrap: wrap; /* Wrap if necessary */
+    justify-content: space-between; /* Space between degree and dates */;
+    align-items: center; /* Center align items vertically */
+}
+.education li span {
+    font-weight: 500; /* Normal weight for details */
+    margin-top: 0.2rem; /* Space above details */
+}
+.education-dates {
+    color: #17abb3; /* Date color for emphasis */
+}
+.education-institution {
+    flex-basis: 100%; /* Full width for institution names, ensure it is on a new line */
+    font-style: italic; /* Italic for institution names */
+}
