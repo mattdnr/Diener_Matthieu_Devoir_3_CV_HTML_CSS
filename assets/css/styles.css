@@ -253,5 +253,7 @@ footer i {
     padding-bottom: 0.5rem;
     font-size: 1.5rem; /* Icon size */
 }
-
+footer i:hover {
+    opacity: 0.7; /* Slightly faded on hover */
+}
 
