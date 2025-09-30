@@ -12,14 +12,15 @@ html {
     width: 1160px; /* Fixed width for better layout control */
     margin: auto; /* Centering the page */
 }
-
+* {
+    box-sizing: border-box;
+}
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
     font-weight: bold; /* Ensure headings are bold */
 }
-
 body {
     margin: 0;
     padding: 0;
