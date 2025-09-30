@@ -30,16 +30,18 @@ body {
 /* Header styles */
 header {
     background-color: #17abb3;
-    padding: 1rem 0; 
+    padding: 2.5rem 0; 
     text-align: center;
     border-bottom: 2px solid #ffffff; /* White border for contrast */
     color: #f5f5f5;
     display: flex; /* Flexbox for better layout control */
-    justify-content: space-evenly; 
+    justify-content: space-around; /* Even spacing */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Wrap on smaller screens */
 }
 header .cv-profile-pic {
-    width: 120px; 
-    height: 120px; 
+    width: 150px; 
+    height: 150px; 
     border-radius: 50%; /* Circular image */
     object-fit: cover;
     border: 5px solid #f5f5f5; /* White border for contrast */
@@ -102,7 +104,7 @@ main h3 {
 }
 /* Sidebar styles */
 #cv-sidebar {
-    width: 30%; 
+    width: 35%; 
     padding: 3rem; 
 }
 #cv-sidebar section {
@@ -161,7 +163,7 @@ main h3 {
 }
 /* Main content styles */
 #cv-main-content {
-    width: 70%;
+    width: 65%;
     padding: 3rem;
     background-color: #ffffff; /* White background for main content */
 }
@@ -250,7 +252,7 @@ footer {
     background-color: #17abb3;
     color: #f5f5f5;
     text-align: center;
-    padding: 1rem 0;
+    padding: 2.5rem 0;
     border-top: 2px solid #ffffff; /* White border for contrast */
     font-size: 0.8rem; /* Slightly smaller font size */
     font-weight: 400; /* Normal weight for footer text */
