@@ -9,6 +9,8 @@ html {
     background-color: #ffffff;
     color: #333333;
     font-weight: 500; /* Default font weight for better readability */
+    width: 1160px; /* Fixed width for better layout control */
+    margin: auto; /* Centering the page */
 }
 
 h1,h2,h3,h4,h5,h6 {
