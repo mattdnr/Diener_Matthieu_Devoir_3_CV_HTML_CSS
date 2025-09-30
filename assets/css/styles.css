@@ -125,3 +125,23 @@ main h3 {
 .languages li span {
     font-weight: 400; /* Normal weight for level text */
 }
+.qualities {
+    list-style: square; /* Square bullets for qualities */
+    padding-left: 1rem; /* Indent for better readability */
+}
+.qualities li {
+    margin-bottom: 0.2rem;
+}
+.qualities li::marker {
+    color: #17abb3; /* Consistent bullet color */
+}
+.interests {
+    list-style: square; /* Square bullets for interests */
+    padding-left: 1rem; /* Indent for better readability */
+}
+.interests li {
+    margin-bottom: 0.2rem;
+}
+.interests li::marker {
+    color: #17abb3; /* Consistent bullet color */
+}
