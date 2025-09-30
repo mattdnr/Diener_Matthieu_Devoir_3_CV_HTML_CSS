@@ -8,6 +8,7 @@ html {
     font-family: 'Raleway', sans-serif;
     background-color: #ffffff;
     color: #333333;
+    font-weight: 500; /* Default font weight for better readability */
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -54,6 +55,7 @@ header ul {
     margin: 0;
     display: flex;
     font-size: smaller; /* Smaller font size for contact info */
+    font-weight: 400;
     flex-wrap: wrap;
     justify-content: space-between; /* Even spacing */
 }
@@ -109,7 +111,7 @@ main h3 {
 }
 .skills li {
     margin-bottom: 0.5rem;
-    font-weight: 600; /* Semi-bold for better readability */
+    font-weight: 700; /* Semi-bold for better readability */
     display: flex;
     justify-content: space-between; /* Space between skill and level */;
     align-items: center; /* Center align items vertically */
@@ -125,14 +127,14 @@ main h3 {
 }
 .languages li {
     margin-bottom: 0.5rem;
-    font-weight: 600; /* Semi-bold for better readability */
+    font-weight: 700; /* Semi-bold for better readability */
     display: flex;
     justify-content: space-between; /* Space between language and level */;
     align-items: center; /* Center align items vertically */
     flex-wrap: wrap; /* Wrap if necessary */
 }
 .languages li span {
-    font-weight: 400; /* Normal weight for level text */
+    font-weight: 500; /* Normal weight for level text */
 }
 .qualities {
     list-style: square; /* Square bullets for qualities */
@@ -158,4 +160,11 @@ main h3 {
 #cv-main-content {
     width: 70%;
     padding: 1rem;
+}
+#cv-main-content section {
+    margin-bottom: 2rem; /* Space between sections */
+}
+#profile p {
+    text-align: justify; /* Justified text for better appearance */
+    text-indent: 1.5rem; /* Indent first line */
 }
