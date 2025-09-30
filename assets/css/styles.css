@@ -91,6 +91,22 @@ main h3 {
     width: 25%; 
     padding: 1rem; 
 }
-#cv-sidebar article {
-    margin-bottom: 2rem; /* Space between articles */
+#cv-sidebar section {
+    margin-bottom: 2rem; /* Space between sections */
+}
+.skills {
+    list-style: none;
+    padding-left: 0;
+}
+.skills li {
+    margin-bottom: 0.5rem;
+    font-weight: 600; /* Semi-bold for better readability */
+    display: flex;
+    justify-content: space-between; /* Space between skill and level */;
+    align-items: center; /* Center align items vertically */
+    flex-wrap: wrap; /* Wrap if necessary */
+}
+.skills li i {
+    color: #17abb3; /* Skill level color */;
+    margin-left: 0.2rem; /* Space between stars */
 }
