@@ -190,3 +190,25 @@ main h3 {
     flex-basis: 100%; /* Full width for institution names, ensure it is on a new line */
     font-style: italic; /* Italic for institution names */
 }
+.internships {
+    list-style: none;
+    padding-left: 0;
+}
+.internships li {
+    margin-bottom: 1rem; /* Space between internship entries */
+    font-weight: 700; /* Semi-bold for better readability */
+    display: flex;
+    flex-wrap: wrap; /* Wrap if necessary */
+    justify-content: space-between; /* Space between role and dates */;
+    align-items: center; /* Center align items vertically */;
+}
+.internships li span {
+    font-weight: 500; /* Normal weight for details */
+}
+.internships-dates {
+    color: #17abb3; /* Date color for emphasis */
+}   
+.internships-institution {
+    flex-basis: 100%; /* Full width for institution names, ensure it is on a new line */
+    font-style: italic; /* Italic for institution names */
+}
